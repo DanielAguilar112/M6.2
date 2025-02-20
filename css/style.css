@@ -1,4 +1,163 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+}
+
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+}
+
+address {
+  position: absolute;
+  bottom: -20mm;
+  right: 20mm;
+}
+
+h1 {
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* Your CSS below here */
+
+h2 {
+  text-align: center;
+
+}
+h3 {
+  font-family: 'Papyrus', serif;
+  font-size: 24px;
+
+}
+.qoute{
+  text-align: center;
+  font-style: italic;
+  margin: 20px 0;
+}
+/* Top image */
+.top-image {
+  width: 100%;
+  display: block;
+}
+.bottom-image {
+  width: 100%;
+  display: block;
+}
+
+/* Logo image container */
+.logo-image-container {
+  position: relative;
+  width: 75%;
+}
+
+/* Logo image */
+.logo-image {
+  width: 25%;
+  display: block;
+}
+
+
+.logo-image-container h1 {
+  position: absolute;
+  top: 35%; 
+  left: 13%; 
+  transform: translate(-50%, -50%); 
+  font-size: 24px; 
+  color: white; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  text-align: center;
+}
+
+/* Two-column layout */
+.content {
+  column-count: 2;
+  column-gap: 20px;
+  padding: 20px;
+  margin-top: 150px; 
+}
+
+.column {
+  break-inside: avoid;
+}
+
+/* Form Styling */
+form {
+  position: absolute;
+  bottom: 30mm; 
+  right: 20mm; 
+  text-align: left; 
+  background: #ffffff; 
+  width: 200px;
+}
+
+form label {
+  display: block; 
+  margin-bottom: 10px;
+  font-size: 14px; 
+  color: #333; 
+}
+
+form input[type="radio"] {
+  margin-right: 10px; 
+}
+
+form button {
+  display: block; 
+  width: 100%; 
+  padding: 10px; 
+  background: #8f9290; 
+  color: white; 
+  border: none; 
+  border-radius: 5px;
+  font-size: 16px; 
+  cursor: pointer; 
+  margin-top: 10px; 
+}
+
+form button:hover {
+  background: #656666; 
+}
+.number-box {
+  width: 200px; 
+  padding: 10px; 
+  font-size: 16px; 
+  border: 2px solid #ccc; 
+  border-radius: 5px; 
+}
+.number-box {
+  width: 50px; 
+  padding: 10px; 
+  font-size: 10px; 
+  border: 2px solid #ccc;
+  border-radius: 5px; 
+}
+
+hr {
+  margin: 10px 0; 
+  border: none;
+  border-top: 2px solid green; 
+}
+
+.content {
+  margin-top: 20px; 
 }
